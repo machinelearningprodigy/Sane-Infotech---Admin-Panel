@@ -22,7 +22,7 @@ const AdminLogin = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/login', formData);
+      const response = await axios.post('https://sane-infotech-admin-panel.onrender.com/api/auth/login', formData);
       localStorage.setItem('adminToken', response.data.token);
       navigate('/dashboard');
     } catch (err) {
