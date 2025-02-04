@@ -1,0 +1,74 @@
+.admin-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .admin-sidebar {
+    background-color: #f1f1f1;
+    padding: 20px;
+    width: 200px;
+  }
+  
+  .admin-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .admin-sidebar li a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .admin-sidebar li a:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .admin-sidebar .icon {
+    margin-right: 10px;
+  }
+  
+  .admin-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .admin-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .admin-header .header-1,
+  .admin-header .header-2 {
+    margin-bottom: 10px;
+  }
+  
+  .admin-main {
+    margin-top: 20px;
+  }
+  
+  .button-1,
+  .button-2 {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .button-1 input,
+  .button-2 input {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .save-button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 20px auto 0;
+    cursor: pointer;
+  }
